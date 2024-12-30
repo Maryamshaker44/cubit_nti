@@ -8,7 +8,7 @@ listener(context, state) {
           backgroundColor: Colors.white,
           content: Center(
               child: Text(
-            " تم تحديث  ",
+            " Updated",
             style: TextStyle(color: Colors.black),
           ))));
     }

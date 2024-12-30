@@ -57,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           onTap: () {
                             cubit.reset();
                           },
-                          iconData: Icons.repeat,
+                          iconData: Icons.restore_outlined,
                         ),
                       ],
                     ),

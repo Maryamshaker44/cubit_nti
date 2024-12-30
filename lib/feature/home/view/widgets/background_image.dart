@@ -12,27 +12,31 @@ class BackGroundImage extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Backimg(
-          image: ImageApp.backGroundImage4,
+          image: ImageApp.Image4,
           onTap: () {
             cubit.changeImage4();
+            cubit.changeName2();
           },
         ),
         Backimg(
-          image: ImageApp.backGroundImage3,
+          image: ImageApp.Image3,
           onTap: () {
             cubit.changeImage3();
+            cubit.changeName3();
           },
         ),
         Backimg(
-          image: ImageApp.backGroundImage2,
+          image: ImageApp.Image2,
           onTap: () {
             cubit.changeImage2();
+            cubit.changeName4();
           },
         ),
         Backimg(
-          image: ImageApp.backGroundImage1,
+          image: ImageApp.Image1,
           onTap: () {
             cubit.changeImage1();
+            cubit.changeName5();
           },
         ),
       ],

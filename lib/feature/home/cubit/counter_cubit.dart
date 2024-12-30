@@ -10,9 +10,9 @@ part 'counter_state.dart';
 
 class CounterCubit extends Cubit<CounterState> {
   CounterCubit() : super(CounterInitial());
-  String image = ImageApp.backGroundImage1;
+  String image = ImageApp.Image1;
   String name = StringApp.a;
-  Color color = ColorImage.backGrey;
+  Color color = ColorImage.c1;
   double i = 0;
 
   void increment() {
@@ -26,26 +26,26 @@ class CounterCubit extends Cubit<CounterState> {
   }
 
   changeImage1(){
-    image = ImageApp.backGroundImage1;
-    color = ColorImage.backGrey;
+    image = ImageApp.Image1;
+    color = ColorImage.c1;
     emit(UpdateImage());
   }
 
   changeImage2(){
-    image = ImageApp.backGroundImage2;
-    color = ColorImage.backPinkAccent;
+    image = ImageApp.Image2;
+    color = ColorImage.c2;
     emit(UpdateImage());
   }
 
   changeImage3(){
-    image = ImageApp.backGroundImage3;
-    color = ColorImage.backBlue;
+    image = ImageApp.Image3;
+    color = ColorImage.c3;
     emit(UpdateImage());
   }
 
   changeImage4(){
-    image = ImageApp.backGroundImage4;
-    color = ColorImage.backTeal;
+    image = ImageApp.Image4;
+    color = ColorImage.c4;
     emit(UpdateImage());
   }
 

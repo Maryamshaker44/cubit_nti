@@ -12,7 +12,7 @@ class TextCount extends StatelessWidget {
       radius: SizeApp.s100,
       child: Text(
         text,
-        style:  const TextStyle(color: Colors.indigo, fontSize: SizeApp.s30),
+        style: const TextStyle(color: Colors.indigo, fontSize: SizeApp.s30),
       ),
     );
   }
