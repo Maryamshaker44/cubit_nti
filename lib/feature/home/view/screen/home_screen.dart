@@ -3,6 +3,7 @@ import 'package:firstproject/feature/home/cubit/counter_cubit.dart';
 import 'package:firstproject/feature/home/view/widgets/app_bar.dart';
 import 'package:firstproject/feature/home/view/widgets/background_image.dart';
 import 'package:firstproject/feature/home/view/widgets/buttoncount.dart';
+import 'package:firstproject/feature/home/view/widgets/drawer_home.dart';
 import 'package:firstproject/feature/home/view/widgets/listner.dart';
 import 'package:firstproject/feature/home/view/widgets/textcount.dart';
 import 'package:flutter/material.dart';
@@ -27,6 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
           return Directionality(
             textDirection: TextDirection.rtl,
             child: Scaffold(
+              drawer: DrawerHome(cubit: cubit),
               appBar: appBar(color: cubit.color, text: cubit.name),
               body: Container(
                 height: double.infinity,
